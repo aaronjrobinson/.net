@@ -1,14 +1,10 @@
-## Welcome!
+## Hello, friends at MultiTracks!
 
-So you want to work for MultiTracks.com? This is a step in the right direction!
+Here are some notes on my solution:
 
+- I badly wanted to connect the API to the UI project, but did not want to take any additional time. As a result, you can simply run that project and use the Swagger UI to test it.	
+- I also ran into some issues with getting the connection string once I began running the API project. I googled and tried so many things, but utltimately ended up hard-coding the connection string in the SQL.cs file to verify that my API calls would work.
 
-This repo contains a Class Library and a Web Forms Website project. As a member of the DotNET server team at MultiTracks.com you will most likely find yourself in similar projects on a regular basis. We have a number of projects also utilizing DotNetCore and all new projects in DotNet 5.
+Thank you so much for taking the time to review my project!
 
-
-To get started:
-
-- Clone the repo locally	
-- Open the solution in Visual Studio	
-- Run "Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r" from the Package Manager Console	
-- Finally run the project for further instructions
+Looking forward to hearing from you!
