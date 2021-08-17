@@ -33,10 +33,12 @@ namespace DataAccess
 
 		public SQL(string connectionStringName)
 		{
-			if (ConfigurationManager.ConnectionStrings[connectionStringName] == null)
-				throw new Exception("\"" + connectionStringName + "\" connection string not found in config file.");
-			else
-				connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ToString();
+			// I ran into issues getting the connection string once I began running the API project...
+			
+			//if (ConfigurationManager.ConnectionStrings[connectionStringName] == null)
+			//	throw new Exception("\"" + connectionStringName + "\" connection string not found in config file.");
+			//else
+				connectionString = "Server=localhost;Database=MultiTracksDB;Trusted_Connection=True;";
 		}
 
 		public SQL(string connectionStringName, int timeout)
